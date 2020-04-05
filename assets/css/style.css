@@ -60,6 +60,8 @@ p {
   background-position: center;
 }
 
+/* I know I'm supposed to get rid of these floats I think with
+display but I'm not sure which one (flex, inline, etc) or exactly how */
 .float-left {
   float: left;
   margin-right: 25px;
@@ -70,10 +72,28 @@ p {
   margin-left: 25px;
 }
 
-.content {
+.main {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
+}
+
+.main-section {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.main-section img {
+  max-height: 200px;
+}
+
+.main-section h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 .benefits {
@@ -103,24 +123,6 @@ p {
   max-width: 150px;
 }
 
-.main-section {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.main-section img {
-  max-height: 200px;
-}
-
-.main-section h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
 footer {
   padding: 30px;
   clear: both;
@@ -131,4 +133,14 @@ footer {
 
 footer h2 {
   font-size: 20px;
+}
+
+/* I know I should be using media queries but I'm not sure how */
+
+/* for any screen larger than 600px */
+@media screen and (min-width: 600px) {
+}
+
+/* For any screen smaller than 599 pixels */
+@media screen and (max-width: 599px) {
 }
