@@ -25,7 +25,7 @@ h1 {
   color: #d9dcd6;
 }
 
-nav div {
+nav section {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -189,7 +189,7 @@ p {
   font-size: 36px;
 }
 
-.footer {
+footer {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -197,6 +197,6 @@ p {
   text-align: center;
 }
 
-.footer h2 {
+footer h2 {
   font-size: 20px;
 }
