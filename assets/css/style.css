@@ -8,7 +8,7 @@ body {
   background-color: #d9dcd6;
 }
 
-nav {
+header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -25,7 +25,7 @@ h1 {
   color: #d9dcd6;
 }
 
-nav section {
+nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -72,13 +72,13 @@ display but I'm not sure which one (flex, inline, etc) or exactly how */
   margin-left: 25px;
 }
 
-.main {
+main {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
-.main-section {
+main section {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -87,11 +87,11 @@ display but I'm not sure which one (flex, inline, etc) or exactly how */
   color: #ffffff;
 }
 
-.main-section img {
+main section img {
   max-height: 200px;
 }
 
-.main-section h2 {
+main section h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
